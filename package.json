@@ -1,0 +1,33 @@
+{
+	"name": "@voxeliface/svelte-localisation",
+	"type": "module",
+	"main": "src/index.ts",
+	"files": ["dist"],
+	"exports": {
+		".": {
+            "types": "./dist/index.d.ts",
+            "svelte": "./dist/index.js"
+        }
+	},
+	"version": "1.0.0",
+	"repository": "https://github.com/Excalware/svelte-localisation.git",
+	"author": "Voxelified",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync",
+		"package": "svelte-package"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^2.0.2",
+		"@sveltejs/kit": "^1.18.0",
+		"@sveltejs/package": "^2.0.2",
+		"typescript": "^5.0.4",
+		"vite": "^4.3.8"
+	},
+	"dependencies": {
+		"svelte": "^3.59.1"
+	}
+}
