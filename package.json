@@ -1,5 +1,5 @@
 {
-	"name": "@voxeliface/svelte-localisation",
+	"name": "@voxelified/svelte-localisation",
 	"type": "module",
 	"main": "src/index.ts",
 	"files": ["dist"],
